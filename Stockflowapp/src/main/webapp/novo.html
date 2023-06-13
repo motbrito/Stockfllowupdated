@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Stockflow</title>
+<link rel="icon" href="Imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>CADASTRO</h1>
+	<form name="frmProduto" action="insert">
+		<table>
+			<tr>
+			<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+
+			<tr>
+			<td><input type="text" name="descricao" placeholder="Descrição" class="Caixa2"></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" name="valor" placeholder="Valor" class="Caixa1"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="tamanho" placeholder="Tamanho" class="Caixa2"></td>
+			</tr>
+			
+				
+			<tr>
+				<td><input type="text" name="cor" placeholder="Cor" class="Caixa1"></td>
+			</tr>
+					
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()"> 
+	</form>
+	<script src="Scripts/validador.js"></script>
+</body>
+</html>

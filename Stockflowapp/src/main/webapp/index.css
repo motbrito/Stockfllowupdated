@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: light-grey;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.boxx {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Botao1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4153a0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4153a0;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #d8dfff;
+}
+
+.Botao2 {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4153a0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Botao2:hover {
+    background-color: #c0392b;
+}

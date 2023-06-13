@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #a6a6a6;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-size: 1em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
